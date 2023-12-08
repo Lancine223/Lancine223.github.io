@@ -18,7 +18,25 @@
     --main-color: #ff8000;
 
 }
+.competence{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+}
 
+.competence div{
+    display: grid;
+    justify-content: flex-start;
+    text-align: start;
+    column-gap: 30px;
+}
+.allcompet{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
 html{
     font-size: 65.5%;
     overflow-x: hidden;
@@ -236,6 +254,34 @@ span{
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
 }
+/*-------------------------------Competence---------------------------------*/
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.services-container .services-box2 {
+    flex: 1 1 30rem;
+    background: var(--second-bg-color);
+    /* background: #2d2d2f; */
+    padding:  3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border:  .2rem solid var(--bg-color);
+    transition: .5s ease;
+}
+.services-container .services-box2:hover{
+    border-color: var(--main-color);
+    transform: scale(1.02);
+}
+.services-box2 i{
+    font-size: 7rem;
+    color: var(--main-color);
+}
+
 /*-------portfolio-------*/
 
 .portfolio{
@@ -390,6 +436,9 @@ span{
     .services{
         padding-bottom: 7rem;
     }
+    .compet{
+        padding-bottom: 7rem;
+    }
     .portfolio{
         padding-bottom: 7rem;
     }
@@ -487,22 +536,5 @@ span{
         color: var(--text-color);
         margin: .3rem 0 1rem;
 }
-/*============theme==========*/
-/*.theme-toggler{
-    background: rgb(27, 24, 24);
-    box-shadow: 0 0.1rem 1rem rgba(243, 222, 222, 0.849);
-    border-radius: 1rem;
-    backdrop-filter: blur(.4rem);
-    
+
 }
-.theme-toggler span{
-    display: block;
-    justify-content: space-between;
-    height: 1rem;
-    border: white 1px solid;
-    width: 2rem;
-    border-radius: 50%;
-    cursor: pointer;
-    margin: 2rem 2.5rem;
-    box-shadow: 2rem, rgba(rgb(116, 15, 90), rgb(201, 12, 75), rgb(238, 117, 202), alpha);
-}*/

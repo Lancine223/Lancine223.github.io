@@ -44,10 +44,11 @@ ScrollReveal().reveal('.home-content, .heading', {origin: 'top'});
 ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form', {origin: 'bottom'});
 ScrollReveal().reveal('.home-content h1 , .about-img', {origin: 'left'});
 ScrollReveal().reveal('.home-content p , .about-content', {origin: 'right'});
+ScrollReveal().reveal('.orange', {origin: 'left'});
 
 /*============Typed js ===============*/
 const typed = new Typed(".multiple-text", {
-    strings: ["Développeur Frontend", "Développeur Python", "Designer Web","Téchnicien Mainténance Informatique", "Traducteur Anglais"],
+    strings: ["Développeur Web et Mobile", "Développeur Python", "Designer Web","Téchnicien Mainténance Informatique", "Traducteur Anglais"],
     typeSpeed: 100,
     backSpeed: 100,
     typeDelay: 1000,
