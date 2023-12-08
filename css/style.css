@@ -19,11 +19,11 @@
 
 }
 .competence{
-    display: grid;
+    display: flex;
     justify-content: center;
     align-items: center;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 30px;
+    gap: 15px;
+   
 }
 
 .competence div{
